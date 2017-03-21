@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title>Evaluación Final - Conceptos de HTML</title>
+</head>
+
+<body>
+    <header>
+       <img src="img/logo.svg" width="150px"/>
+       <h1>Hoja de Vida</h1>
+       <h2>LeBron Raymone James</h2>
+       <h3><em>Akron, 30 de dezembro de 1984</em></h3>
+       <nav>
+         <ul>
+           <li><a href="index.html">Inicio</a></li>
+           <li><a href="recordes_personales.html">Recordes Personales</a></li>
+           <li><a href="experiencia.html">Experiencia</a></li>
+         </ul>
+       </nav>
+
+    </header>
+    <section>
+       <article>
+           <h2>Recordes Personales</h2>
+           <table border=1>
+           <thead>
+             <tr>
+              <th scope="col" rowspan="2">Tipo de Estadística</th>
+              <th scope="col" colspan="3">Temporada Regular</th>
+              <th scope="col" colspan="3">Playoffs</th>
+            </tr>
+            <tr>
+              <th scope="col">Recorde</th>
+              <th scope="col">Rival</th>
+              <th scope="col">Fecha</th>
+              <th scope="col">Recorde</th>
+              <th scope="col">Rival</th>
+              <th scope="col">Fecha</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mayor Puntaje</td>
+              <td>61</td>
+              <td>Charlotte Bobcats</td>
+              <td>3 de Marzo de 2014</td>
+              <td>49</td>
+              <td>2 Veces</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Canastas Convertidas</td>
+              <td>22</td>
+              <td>Charlotte Bobcats</td>
+              <td>3 de Marzo de 2014</td>
+              <td>20</td>
+              <td>Orlando Magic</td>
+              <td>20 de Mayo de 2009</td>
+            </tr>
+            <tr>
+              <td>Intentos de Canasta</td>
+              <td>36</td>
+              <td>Toronto Raptors</td>
+              <td>20 de Mayo de 2005</td>
+              <td>37</td>
+              <td>Atlanta Hawks</td>
+              <td>24 de Mayo de 2015</td>
+            </tr>
+            <tr>
+              <td>Tiros Libres Convertidos</td>
+              <td>24</td>
+              <td>Miami Heat</td>
+              <td>12 de Marzo de 2006</td>
+              <td>18</td>
+              <td>2 Veces</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Intentos de Tiros Libres</td>
+              <td>28</td>
+              <td>Miami Heat</td>
+              <td>12 de Marzo de 2006</td>
+              <td>24</td>
+              <td>2 Veces</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Triples Convertidos</td>
+              <td>8</td>
+              <td>2 Veces</td>
+              <td></td>
+              <td>7</td>
+              <td>Washington Wizards</td>
+              <td>30 de Abril de 2006</td>
+            </tr>
+            <tr>
+              <td>Intentos de Triples</td>
+              <td>13</td>
+              <td>3 Veces</td>
+              <td></td>
+              <td>12</td>
+              <td>Washington Wizards</td>
+              <td>30 de Abril de 2006</td>
+            </tr>
+            <tr>
+              <td>Resaltos Ofensivos</td>
+              <td>7</td>
+              <td>2 Veces</td>
+              <td></td>
+              <td>8</td>
+              <td>Atlanta Hawks</td>
+              <td>24 de Mayo de 2015</td>
+            </tr>
+            <tr>
+              <td>Resaltos Defensivos</td>
+              <td>17</td>
+              <td>New York Knicks</td>
+              <td>14 de Abril de 2005</td>
+              <td>16</td>
+              <td>Boston Celtics</td>
+              <td>13 de Mayo de 2010</td>
+            </tr>
+            <tr>
+              <td>Resaltos Totales</td>
+              <td>19</td>
+              <td>Charlotte Bobcats</td>
+              <td>11 de Enero de 2008</td>
+              <td>19</td>
+              <td>Boston Celtics</td>
+              <td>13 de Mayo de 2010</td>
+            </tr>
+            <tr>
+              <td>Asistencias</td>
+              <td>17</td>
+              <td>Washington Wizards</td>
+              <td>6 de Febrero de 2017</td>
+              <td>14</td>
+              <td>Chicago Bulls</td>
+              <td>8 de Mayo de 2015</td>
+            </tr>
+            <tr>
+              <td>Robos</td>
+              <td>7</td>
+              <td>Memphis Grizzlies</td>
+              <td>13 de Diciembre de 2004</td>
+              <td>6</td>
+              <td>Indiana Pacers</td>
+              <td>15 de Mayo de 2012</td>
+            </tr>
+            <tr>
+              <td>Tapones</td>
+              <td>5</td>
+              <td>2 Veces</td>
+              <td></td>
+              <td>4</td>
+              <td>Chicago Bulls</td>
+              <td>17 de Abril de 2010</td>
+            </tr>
+            <tr>
+              <td>Minutos Jugados</td>
+              <td>55</td>
+              <td>Memphis Grizzlies</td>
+              <td>29 de Noviembre de 2003</td>
+              <td>53</td>
+              <td>Washington Wizards</td>
+              <td>5 de Mayo de 2006</td>
+            </tr>
+            </tbody>
+          </table>
+        <h2>Agregar Recorde</h2>
+          <form action="">
+            <p>
+              <label for="año"><strong>Año: </strong></label>
+              <select name="año">
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+              </select>
+            </p>
+            <p>
+          		<label for="rival"><strong>Rival: </strong></label>
+          		<input type="text" name="rival" placeholder="Ej: Chicago Bull" required>
+          	</p>
+            <p>
+          		<label for="recordes"><strong>Recordes: </strong></label>
+          		<textarea rows="2" name="recordes" required></textarea>
+          	</p>
+            <p>
+          		<label for="veces"><strong>¿Cuantas Veces?</strong></label>
+          		<input type="radio" name="veces"> 1
+          		<input type="radio" name="veces"> 2
+              <input type="radio" name="veces"> 3
+              <input type="radio" name="veces"> 4 o más
+          	</p>
+            <p>
+          		<input type="submit" value="Enviar">
+          	</p>
+          </form>
+       </article>
+    </section>
+    <footer>
+      <p><small><em>&#174;Derechos Reservados<em></small></p>
+      <ul>
+        <li><small><strong>Email: </strong><a href="mailto:'info@lebronjames.com'">info@lebronjames.com</a></small></li>
+        <li><small><strong>Teléfono:</strong>+54 (11) 5555-5555</small></li>
+        <li><small><strong>Dirección:</strong>Calle 13 - C.A.B.A. - Buenos Aires - Argentina - CP1417</small></li>
+      </ul>
+    </footer>
+</body>
+</html>

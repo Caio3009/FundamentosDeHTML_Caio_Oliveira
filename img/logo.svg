@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_6">
+   <circle stroke="#000000" id="svg_4" r="233.72818" cy="239.999998" cx="321.365252" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+   <text stroke="#000000" transform="matrix(16.463204024227654,0,0,13.977952941909932,-5737.750689631616,-1204.1701872937278) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="111.413202" x="368.031149" stroke-width="0" fill="#000000">LJ</text>
+   <polygon stroke="#000000" stroke-width="5" points="321.3653869628906,149.27883911132812 333.88531494140625,181.951416015625 372.0107727050781,182.65621948242188 341.6235656738281,203.55369567871094 352.6658630371094,236.66180419921875 321.3653869628906,216.9045867919922 290.06492614746094,236.66180419921875 301.10723876953125,203.55369567871094 270.7198486328125,182.65621948242188 308.84532165527344,181.951416015625 321.3653869628906,149.27883911132812 333.88531494140625,181.951416015625 " strokeWidth="5" strokecolor="#000000" fill="#000000" orient="point" r2="4.13978" r="10.34945" point="5" shape="star" id="svg_3" cy="184" cx="286"/>
+  </g>
+ </g>
+</svg>
